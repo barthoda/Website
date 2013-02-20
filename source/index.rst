@@ -3,20 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Section.IO's documentation!
-======================================
+Welcome
+=======
 
-Contents:
+hi
 
 .. toctree::
-   :maxdepth: 2
+   :hidden:
+   :maxdepth: 10
+   :glob:
 
-
+   *
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
-
+* :doc:`sitemap`
