@@ -1,0 +1,9 @@
+Site Map
+========
+
+.. toctree::
+   :maxdepth: 10
+   :titlesonly:
+   :glob:
+
+   *
