@@ -91,7 +91,7 @@ pygments_style = 'sphinx'
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'f6'
+html_theme = 'solar'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -103,10 +103,10 @@ html_theme_path = [ '_themes' ]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = "Section.IO"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-#html_short_title = None
+html_short_title = "Section.IO"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -147,7 +147,7 @@ html_static_path = ['_static']
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #html_show_sphinx = True
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'sectionio', u'Section.IO Documentation',
+    ('index', 'sectionio', u'Section.IO',
      [u'Shane R. Spencer'], 1)
 ]
 
@@ -227,7 +227,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'SectionIO', u'Section.IO Documentation',
+  ('index', 'SectionIO', u'Section.IO',
    u'Shane R. Spencer', 'SectionIO', 'One line description of project.',
    'Miscellaneous'),
 ]
